@@ -628,7 +628,7 @@ def passwrd():
     print('\033[97;1m[\033[92;1m+\033[96;1m] CP :\033[0;93m %s '%(cp))
     print('\033[0;91m-----------------------------------------------')
     woi = input('\033[97;1m[\033[92;1m+\033[95;1m] \033[1;37m ENTER TO BACK')
-    os.system("python runv2.py")
+    os.system("python runv5.py")
     exit() 
 #--------------------[ METHOD ]-----------------#
 def crack(idf,pwv):
