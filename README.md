@@ -3,5 +3,7 @@
 TERMUX SCRIPT RUNING CMD
 
 git clone https://github.com/FIGHTERXJOD/HITLER-X-GOD
+
 cd HITLER-X-GOD
-python v5.py
+
+python runv5.py
