@@ -388,7 +388,7 @@ logo ="""
  GITHUB     : SURAJGODEXE
  FACEBOOK   : SURAJ VHUSAL
  TOOLS     \033[1;97m : \x1b[97m\033[37;41m PAID\033[0;m
- VERSION    : \033[1;36m1.1 \033[1;37m
+ VERSION    : \033[1;36m5.0 \033[1;37m
 -----------------------------------------------"""   
 meyermarexudi =("""""")    
 alltimexudi =(""" \033[32;1m[-]""")
