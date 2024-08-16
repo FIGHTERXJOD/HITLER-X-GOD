@@ -386,7 +386,7 @@ def linex():
     print('\033[1;37m')
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-os.system('xdg-open https://www.facebook.com/surajexegod')
+os.system('xdg-open https://www.facebook.com/SINZOGODEXE')
 logo ="""
 ░██████╗██╗░░░██╗██████╗░░█████╗░░░░░░██╗
 ██╔════╝██║░░░██║██╔══██╗██╔══██╗░░░░░██║
@@ -398,8 +398,8 @@ logo ="""
 \033[1;37;1m-----------------------------------------------
  AUTHOR     : HITLER X GOD
  GITHUB     : FLIGHTERXGOD
- FACEBOOK   : SURAJ VHUSAL
- TOOLS     \033[1;97m : \x1b[97m\033[37;41m PAID\033[0;m
+ FACEBOOK   : SINZO LUVSS YOUU
+ TOOLS     \033[1;97m : \x1b[97m\033[37;41m FREE\033[0;m
  VERSION    : \033[1;36m5.01 \033[1;37m
 -----------------------------------------------"""   
 meyermarexudi =("""""")    
@@ -449,7 +449,7 @@ while attemps < 12345677901:
     username = input(' \033[1;37m [\u001b[36m•\033[1;37m] ENTER USERNAME: ')
     password = input(' \033[1;37m [\u001b[36m•\033[1;37m] ENTER PASSWORD: ')
 
-    if username == 'SURAJ' and password == '1':
+    if username == 'FREE' and password == '1':
         print(' ')
         break
     else:
