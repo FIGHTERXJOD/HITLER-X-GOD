@@ -380,7 +380,7 @@ def clear():
 def back():
     menu()
 def contact():
-    os.system('xdg-open https://www.facebook.com/surajexegod')
+    os.system('xdg-open https://www.facebook.com/SINZOGODEXE')
     back()
 def linex():
     print('\033[1;37m')
@@ -427,7 +427,7 @@ def meyexudi():
       print(' \x1b[1;97m[•] WI-FI AND DATA BOTH WORKING')
       print(" \x1b[0m[•] YOUR KEY :\033[1;35m "+id)
       input(' \033[1;37m[•] IF U WANT TO BUY THEN PRESS ENTER ')
-      os.system('am start https://www.facebook.com/surajexegod'),approval()      
+      os.system('am start https://www.facebook.com/SINZOGODEXE'),approval()      
       time.sleep(1)
       meyexudi()
   except:
